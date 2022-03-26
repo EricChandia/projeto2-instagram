@@ -6,10 +6,22 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
 }
 
 .corpo{
-    background-color: #E5E5E5;
+    background-color: #FAFAFA;
+}
+
+h4{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 16px;
+    line-height: 16px;
+}
+
+strong{
+    font-weight: bold;
 }
 
 .topo{
@@ -22,6 +34,8 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+
+    border: 1px solid #DBDBDB;
 }
 
 .topo div{
@@ -66,14 +80,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color:  #FAFAFA;
 }
 
 .conteudo{
-    background-color: brown;
+    background-color: #FAFAFA;
     width: 935px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .bottom-left{
@@ -81,27 +96,230 @@ body{
 }
 
 .stories{
-    background-color: pink;
+    background-color: #FFFFFF;
     width: 614px;
     height: 118px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 3px;
+
+    border: 1px solid #DBDBDB;
+}
+
+
+.story{
+    background-color: blueviolet;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin: 0 20px;
 }
 
 .posts{
     width: 614px;
-    background-color: yellow;
     margin-top: 24px;
 }
 
+
+.post{
+    width: 614px;
+    height: 749px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post-image{
+    width: 612px;
+    height: 612px;
+    background-color: black;
+}
+
+.post-topo{
+    width: 612px;
+    height: 67.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-topo div{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.post-topo ion-icon{
+    font-size: 20px;
+    color: #494646;
+}
+
+.post-topo-img{
+    background-color: black;
+    width: 32px;
+    height: 32px;
+}
+
+.post-topo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.post-bottom{
+    width: 612px;
+    height: 67.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.post-bottom-um{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-bottom ion-icon{
+    margin: 0 5px;
+}
+
+.post-bottom h4{
+    margin: 0 5px;
+}
+
+.post-bottom-dois{
+    display: flex;
+    margin: 5px 0;
+}
+
+.post-bottom-dois img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
 
 .bottom-right{
     margin-left: 28px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: #FAFAFA;
 }
 
 .sidebar{
     width: 293px;
-    background-color: lightgray;
+    background-color: #FAFAFA;
 }
+
+.sidebar-topo{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sidebar-topo-texto{
+    margin: 0 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sidebar-topo-texto p{
+    font-weight: 300;
+    font-style: normal;
+    size: 14px;
+    line-height: 16.41px;
+}
+
+.sidebar-topo img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    
+}
+
+.texto-cinza{
+    color: #b7b7b7;
+}
+
+.sidebar-middle-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sugestoes-pra-voce{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}
+
+.sidebar-middle-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.sidebar-middle-bottom div{
+    display: flex;
+}
+
+.seguir{
+    color: #139EF2;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.perfis{
+    display: flex;
+    flex-direction: column;
+}
+
+.segue-voce{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+.sidebar-middle-bottom img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-right: 10px;
+}
+
+.perfis-sidebar{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.sobre-ajuda{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #c7c7c7;
+    margin: 20px 0;
+}
+
